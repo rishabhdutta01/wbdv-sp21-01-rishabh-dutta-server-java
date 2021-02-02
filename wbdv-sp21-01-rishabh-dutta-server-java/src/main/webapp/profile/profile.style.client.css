@@ -1,0 +1,11 @@
+body{
+    background-color: lightgray;
+}
+
+#profileDiv{
+    height: 100vh;
+    margin: auto;
+    width: 750px;
+    max-width: 100%;
+    padding: 10px;
+}
