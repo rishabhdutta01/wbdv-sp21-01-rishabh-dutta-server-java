@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dashboard.style.client.css">
+
+    <title>Dashboard</title>
+</head>
+<body>
+<body>
+    <nav class="navbar navbar-expand sticky-top bg-blue">
+        <i class="nav-item nav-link fa fa-bars fa-2x"></i>
+        <h3 class="nav-item nav-link d-none d-sm-block">Dashboard</h3>
+        <input class="form-control" placeholder="New Course Title"/>
+        <i class="nav-item nav-link fa fa-plus-circle fa-2x color-red"></i>
+    </nav>
+
+    <div id="dashboardDiv"
+         class="container-fluid">
+        <div class="row">
+            <div class="col-11 col-sm-6">Title</div>
+            <div class="col-2 d-none d-sm-block">Owned by</div>
+            <div class="col-3 d-none d-sm-block">Last Modified</div>
+            <div class="col-1 d-none d-sm-block">
+                <i class="fa fa-th"></i>
+            </div>
+        </div>
+
+        <h6 class="day-notification">Today</h6>
+
+        <div class="row">
+            <div class="col-11 col-sm-6">
+                <a href="../editor/editor.template.client.html">
+                    <i class="fa fa-file"></i>
+                    CS5610 Web Dev
+                </a>
+                <i class="fa fa-users d-none d-sm-inline-block ml-3 color-grey"></i>
+            </div>
+            <div class="col-2 d-none d-sm-block color-grey">Jannunzi</div>
+            <div class="col-3 d-none d-sm-block color-grey">2 hours ago</div>
+            <div class="col-1">
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-11 col-sm-6">
+                <a href="../editor/editor.template.client.html">
+                    <i class="fa fa-file"></i>
+                    CS3200 Algorithms
+                </a>
+            </div>
+            <div class="col-2 d-none d-sm-block color-grey">Jannunzi</div>
+            <div class="col-3 d-none d-sm-block color-grey">4 hours ago</div>
+            <div class="col-1">
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-11 col-sm-6">
+                <a href="../editor/editor.template.client.html">
+                    <i class="fa fa-file"></i>
+                    CS3201 DBMS
+                </a>
+            </div>
+            <div class="col-2 d-none d-sm-block color-grey">Jannunzi</div>
+            <div class="col-3 d-none d-sm-block color-grey">10 hours ago</div>
+            <div class="col-1">
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+
+        <h6 class="day-notification">Yesterday</h6>
+
+        <div class="row">
+            <div class="col-11 col-sm-6">
+                <a href="../editor/editor.template.client.html">
+                    <i class="fa fa-file"></i>
+                    CS3202 Programming Paradigm
+                </a>
+            </div>
+            <div class="col-2 d-none d-sm-block color-grey">Jannunzi</div>
+            <div class="col-3 d-none d-sm-block color-grey">1/24/2021</div>
+            <div class="col-1">
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-11 col-sm-6">
+                <a href="../editor/editor.template.client.html">
+                    <i class="fa fa-file"></i>
+                    CS3203 Info Retrieval
+                </a>
+            </div>
+            <div class="col-2 d-none d-sm-block color-grey">Jannunzi</div>
+            <div class="col-3 d-none d-sm-block color-grey">1/24/2021</div>
+            <div class="col-1">
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-11 col-sm-6">
+                <a href="../editor/editor.template.client.html">
+                    <i class="fa fa-file"></i>
+                    CS3204 Big Data
+                </a>
+            </div>
+            <div class="col-2 d-none d-sm-block color-grey">Jannunzi</div>
+            <div class="col-3 d-none d-sm-block color-grey">1/24/2021</div>
+            <div class="col-1">
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <i id="footerIcon" class="fa fa-plus-circle fa-3x color-red"></i>
+        </footer>
+    </div>
+</body>
+</html>
