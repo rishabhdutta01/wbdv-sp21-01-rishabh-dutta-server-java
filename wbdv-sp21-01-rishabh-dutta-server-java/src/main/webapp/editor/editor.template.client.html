@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="editor.style.client.css">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"></script>
+
+    <title>Course Editor</title>
+</head>
+<body>
+    <div id="courseEditorDiv"
+         class="container-fluid">
+        <div class="row">
+            <div id="moduleList"
+                 class="col-3 col-sm-2">
+                <div  class="row">
+                    <h1 id="courseName">CS 6510</h1>
+                </div>
+
+                <div class="row">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Module 1 - JQuery
+                            <i class="fa fa-times float-right"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Module 2 - React
+                            <i class="fa fa-times float-right"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Module 3 - Angular
+                            <i class="fa fa-times float-right"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa fa-plus-circle fa-2x color-red float-right"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="moduleMenu" class="col-9 col-sm-10">
+                <nav class="nav navbar-tabs navbar-expand-sm sticky-top nav-fill" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link border-custom" id="nav-build-tab" data-bs-toggle="tab" href="#nav-build" role="tab"
+                       aria-controls="nav-build" aria-selected="true">Build<i class="fa fa-times ml-2"></i></a>
+                    <a class="nav-item nav-link border-custom" id="nav-pages-tab" data-bs-toggle="tab" href="#nav-pages" role="tab"
+                       aria-controls="nav-pages" aria-selected="false">Pages<i class="fa fa-times ml-2"></i></a>
+                    <a class="nav-item nav-link border-custom" id="nav-theme-tab" data-bs-toggle="tab" href="#nav-theme" role="tab"
+                       aria-controls="nav-theme" aria-selected="false">Theme<i class="fa fa-times ml-2"></i></a>
+                    <a class="nav-item nav-link border-custom" id="nav-store-tab" data-bs-toggle="tab" href="#nav-store" role="tab"
+                       aria-controls="nav-store" aria-selected="false">Store<i class="fa fa-times ml-2"></i></a>
+                    <a class="nav-item nav-link border-custom" id="nav-app-tab" data-bs-toggle="tab" href="#nav-app" role="tab"
+                       aria-controls="nav-app" aria-selected="false">App<i class="fa fa-times ml-2"></i></a>
+                    <a class="nav-item nav-link border-custom" id="nav-settings-tab" data-bs-toggle="tab" href="#nav-settings" role="tab"
+                       aria-controls="nav-settings" aria-selected="false">Settings<i class="fa fa-times ml-2"></i></a>
+                    <i class="nav-item nav-link border-custom fa fa-plus-circle fa-2x color-red"></i>
+                </nav>
+
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-build" role="tabpanel" aria-labelledby="nav-build-tab">
+                        <nav class="navbar nav-pills navbar-sm-expand nav-fill mt-3">
+                            <a class="nav-item nav-link border-custom active">Topic 1<i class="fa fa-times ml-2"></i></a>
+                            <a class="nav-item nav-link border-custom active">Topic 2<i class="fa fa-times ml-2"></i></a>
+                            <a class="nav-item nav-link border-custom active">Topic 3<i class="fa fa-times ml-2"></i></a>
+                            <a class="nav-item nav-link border-custom active">Topic 4<i class="fa fa-times ml-2"></i></a>
+                            <i class="nav-item nav-link border-custom fa fa-plus-circle fa-2x color-red"></i>
+                        </nav>
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-pages" role="tabpanel" aria-labelledby="nav-pages-tab">
+                        <nav class="navbar nav-pills navbar-sm-expand nav-fill mt-3">
+                            <a class="nav-item nav-link border-custom active">Topic 1<i class="fa fa-times float-right"></i></a>
+                            <a class="nav-item nav-link border-custom active">Topic 2<i class="fa fa-times float-right"></i></a>
+                            <i class="nav-item nav-link border-custom fa fa-plus-circle fa-2x color-red"></i>
+                        </nav>
+                    </div>
+                    <div class="tab-pane fade" id="nav-theme" role="tabpanel" aria-labelledby="nav-theme-tab">...</div>
+                    <div class="tab-pane fade" id="nav-store" role="tabpanel" aria-labelledby="nav-store-tab">...</div>
+                    <div class="tab-pane fade" id="nav-app" role="tabpanel" aria-labelledby="nav-app-tab">...</div>
+                    <div class="tab-pane fade" id="nav-settings" role="tabpanel" aria-labelledby="nav-settings-tab">...</div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <i id="footerIcon" class="fa fa-plus-circle fa-2x color-red"></i>
+        </footer>
+    </div>
+</body>
+</html>
