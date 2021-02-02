@@ -2,32 +2,21 @@ body{
     background-color: lightgray;
 }
 
-.login-container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.login-form{
+.wbdv-login-form{
+    height: 100vh;
     margin: auto;
     width: 450px;
-    padding: 10px;
     max-width: 100%;
+    padding: 10px;
 }
 
-.login-form h1{
+.wbdv-login-form h1{
     text-align: center;
     font-weight: bolder;
     padding: 15px;
 }
 
-.pwd-control{
-    display: flex;
-    justify-content: space-between;
-}
-
 .form-group{
     margin: 10% 5% 10% 5%;
 }
+

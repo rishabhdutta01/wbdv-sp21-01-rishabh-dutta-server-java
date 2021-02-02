@@ -2,23 +2,16 @@ body{
     background-color: lightgray;
 }
 
-.homepage{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.homepage-items{
+.wbdv-homepage-items{
     text-align: center;
     margin: auto;
+    height: 100vh;
     width: 450px;
     padding: 10px;
     max-width: 100%;
 }
 
-#homepage-header{
+#homepageHeader{
     font-size: xxx-large;
     font-weight: bolder;
     padding: 15px;
