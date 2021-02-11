@@ -4,9 +4,9 @@ function UserServiceClient() {
     this.findUserById = findUserById;
     this.deleteUser = deleteUser;
     this.updateUser = updateUser;
-    this.url = 'https://wbdv-generic-server.herokuapp.com/api/jannunzi/users';
+    this.url = "https://wbdv-generic-server.herokuapp.com/api/001094277/users";
 
-    var self = this;
+    let self = this;
 
     function createUser(user) {
         return fetch(self.url, {
@@ -28,7 +28,10 @@ function UserServiceClient() {
     }
 
     function findUserById(userId) {
-
+        return fetch(`${self.url}/${userId}`)
+            .then(function (response) {
+                return response.json()
+            })
     }
 
     function updateUser(userId, user) {
